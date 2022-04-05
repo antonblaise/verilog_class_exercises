@@ -18,14 +18,13 @@
 #
 # Quartus Prime
 # Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
-# Date created = 17:14:49  April 05, 2022
+# Date created = 17:47:58  April 05, 2022
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "18.0"
-DATE = "17:14:49  April 05, 2022"
+DATE = "17:47:58  April 05, 2022"
 
 # Revisions
 
 PROJECT_REVISION = "verilog_class_exercises"
-PROJECT_REVISION = "class_exercise_01"
