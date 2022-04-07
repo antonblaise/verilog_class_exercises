@@ -37,3 +37,5 @@ output_files
 *.summary
 *.smsg
 *.qws
+SUM.vwf
+MulAdd.vwf
