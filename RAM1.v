@@ -18,6 +18,6 @@ module RAM1 (
 	end
 	
 	// asynchronous read
-	assign dataout = M[addr]
+	assign dataout = M[addr];
 
 endmodule
