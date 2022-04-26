@@ -4,7 +4,7 @@
 module REGFILE1 (
 	input clk, we,
 	input [7:0] Ddata,
-	input [1:0] Daddr, Aaddr, Baddr,
+	input [1:0] Daddr, Aaddr, Baddr, // D = input port, A and B = output ports
 	output [7:0] Adata, Bdata
 );
 
