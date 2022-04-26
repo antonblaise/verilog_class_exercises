@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
-set_global_assignment -name TOP_LEVEL_ENTITY priority_encoder
+set_global_assignment -name TOP_LEVEL_ENTITY REGFILE1
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:21:58  APRIL 05, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
@@ -266,8 +266,9 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE SUM.vwf
 set_global_assignment -name VERILOG_FILE adder16.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE adder16.vwf
 set_global_assignment -name VERILOG_FILE priority_encoder.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE priority_encoder.vwf
+set_global_assignment -name VERILOG_FILE REGFILE1.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE priority_encoder.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
